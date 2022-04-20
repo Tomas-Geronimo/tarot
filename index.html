@@ -4,29 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Energia Cosmica</title>
+    <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="56.png">
+    <title>Energia Cosmica</title>
 </head>
 <body>
-    <header>
-        <img src="56.png" alt="">
-        <h1>Energia Cosmica</h1>
-        <nav>
+    <header id="header">
+        <img id="logo" src="56.png" alt="">
+        <h1> <span>Energia </span><span>Cosmico</span></h1>
+        <nav id="nav-main">
             <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">lecturas</a></li>
-                <li><a href="#">Reglas y Condiciones</a></li>
-                <li><a href="#">Tarot</a></li>
-                <li><a href="#">Mi Blog</a></li>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#lecturas">lecturas</a></li>
+                <li><a href="#rules">Reglas y Condiciones</a></li>
+                <li><a href="#tarot">Tarot</a></li>
+                <li><a href="#blog">Mi Blog</a></li>
             </ul>
         </nav>
     </header>
-    <main>
+    <main id="main">
+        <div class="box-main">
         <article>
-            <h2>Tarot Evolutivo</h2>
-            <h3>Con</h3>
-            <h1>Rocío Luján</h1>
-            <div class="form-main">
+            <header class="main-header">
+                <h2>Tarot Evolutivo</h2>
+                <h3>Con</h3>
+                <h1>Rocío Luján</h1>
+            </header>
+            <div class="main-form">
                 <form action="#">
                     <input type="text" name="Nombre" id="" required>
                     <input type="email" required>
@@ -34,8 +38,9 @@
                 </form>
             </div>
         </article>
+        </div>
     </main>
-    <section>
+    <section id="lecturas">
         <header>
             <h1>Costo de las Lecturas</h1>
         </header>
