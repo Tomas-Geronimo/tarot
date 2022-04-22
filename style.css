@@ -7,7 +7,7 @@
 }
 
 body{
-    background-image: url(backgrounds/body-back.jpg);
+    background-image: url(body-back.jpg);
     background-size: cover;  
 }
 
@@ -16,7 +16,7 @@ body{
     top: 0;
     left: 0;
     width: 100%;
-    background-image: url(backgrounds/nav-img.jpg) ;
+    background-image: url(nav-img.jpg) ;
     background-size: cover;
     margin-bottom: 0rem;
     box-shadow: 0 8px 32px 0 rgba(5, 5, 10, 0.9);
@@ -99,7 +99,7 @@ text-shadow: 0 0 5px rgb(0, 0, 0), 0 0 10px rgb(0, 0, 0), 0 0 15px rgb(0, 0, 0),
 }
 
 .back{
-    background-image: url(backgrounds/back1.png);
+    background-image: url(back1.png);
     background-size: cover ;
     height: 65vh;
     width: 90%;
@@ -147,7 +147,7 @@ text-shadow: 0 0 5px rgb(0, 0, 0), 0 0 10px rgb(0, 0, 0), 0 0 15px rgb(0, 0, 0),
 }
 
 #lectura .cards-main{
-    background-image: url(backgrounds/nav-img.jpg) ;
+    background-image: url(nav-img.jpg) ;
     background-size:cover ;
     margin: auto 1.5rem;
     background-color: #fff;
@@ -251,7 +251,7 @@ b{
     margin: 20px 70px 20px 70px;
     display: flex;
     justify-content: center;
-    background-image: url(backgrounds/nav-img.jpg) ;
+    background-image: url(nav-img.jpg) ;
     background-size:cover ; 
     transition: all 0.5 0.2s;
     font-weight: 900;
