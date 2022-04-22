@@ -1,79 +1,91 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.js">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Updock&display=swap" rel="stylesheet">
+   
     <link rel="shortcut icon" href="56.png">
+    <script src="index.js"></script>
     <title>Energia Cosmica</title>
 </head>
 <body>
-    <header id="header">
-        <img id="logo" src="56.png" alt="">
-        <h1> <span>Energia </span><span>Cosmico</span></h1>
-        <nav id="nav-main">
-            <ul>
-                <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#lecturas">lecturas</a></li>
-                <li><a href="#rules">Reglas y Condiciones</a></li>
-                <li><a href="#tarot">Tarot</a></li>
-                <li><a href="#blog">Mi Blog</a></li>
-            </ul>
-        </nav>
+    <header class="header ">
+
+        <div class="container logo-nav">
+            
+                <h1 class="logo"><img src="logos/tarot.png" alt=""> Energia Cosmica <img src="logos/tarot.png" alt=""></h1>
+                <img class="logo-responsive" src="logos/wicca.png" alt="">
+                <img class="menu" src="logos/menu.png" alt="">
+            <nav class="navigation" >
+                   
+                <ul >
+                    
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#lectura">lecturas</a></li>
+                    <li><a href="#rules">Reglas y Condiciones</a></li>
+                    <li><a href="#tarot">Tarot</a></li>
+                    <li><a href="#blog">Mi Blog</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
+    <div class="icons-social-networks">
+        <a href="https://www.instagram.com/cos.ener/" target="_blank"><img src="img-socialnetwork/instagram.png" alt=""></a>
+        <a href="https://www.instagram.com/cos.ener/" target="_blank"><img src="img-socialnetwork/facebook.png" alt=""></a>
+        <a href="https://www.instagram.com/cos.ener/" target="_blank"><img src="img-socialnetwork/google.png" alt=""></a>
+        <a href="https://www.instagram.com/cos.ener/" target="_blank"><img src="img-socialnetwork/tiktok.png" alt=""></a>
+        <a href="https://www.instagram.com/cos.ener/" target="_blank"><img src="img-socialnetwork/twitch.png" alt=""></a>
+        <a href="https://www.instagram.com/cos.ener/" target="_blank"><img src="img-socialnetwork/youtube.png" alt=""></a>
+        </div>
     <main id="main">
-        <div class="box-main">
-        <article>
-            <header class="main-header">
-                <h2>Tarot Evolutivo</h2>
-                <h3>Con</h3>
-                <h1>Rocío Luján</h1>
-            </header>
-            <div class="main-form">
-                <form action="#">
-                    <input type="text" name="Nombre" id="" required>
-                    <input type="email" required>
-                    <input type="submit" value="Enviar" onclick=" msg () " required>
-                </form>
+        <div class="back">
+            <div class="main-container">
+                <div class="titulos">
+                    <h1> <span class="1-tittle">Tarot</span><span class="2-tittle">Evolutivo</span></h1>
+                    <h2>con<span>Rocío</span></h2> 
             </div>
-        </article>
         </div>
     </main>
-    <section id="lecturas">
-        <header>
-            <h1>Costo de las Lecturas</h1>
-        </header>
+    <section id="lectura">
+        
         <article class="cards-main">
-            <div class="card-conteiner">
+            <h1 class="cards-h1">Costo de las Lecturas</h1>
+            <div class="card-container">
                 <div class="box-1">
                     <h2>Lectura Grande</h2>
-                    <h3>01:30    $1200 ARS</h3>
-                    <p>Preguntas las veces que quieras por Una <span class="card-price-1">Hora</span><span card-price-2> y </span><span card-price-3>Media</span>!</p>
-                    <p>Comision de <b>$36</b> por Mercado Pago</p>
-                    <a href="https://mpago.la/1LQ2R1c" target="_blank">Comprar</a>   
+                    <h3>01:30      $1200</h3>
+                    <p class="card-p1">Preguntas las veces que quieras por Una <span class="card-price-1">Hora</span><span card-price-2> y </span><span card-price-3>Media</span>!</p>
+                    <p class="card-p2">Comision de <b>$36</b> por Mercado Pago</p>
+                    <a class="card-a" href="https://mpago.la/1LQ2R1c" target="_blank">Comprar</a>   
                 </div>
                 <div class="box-2">
                     <h2>Lectura Media</h2>
-                    <h3>01:00    $900 ARS</h3>
-                    <p>Preguntas las veces que quieras por Una <span class="card-price-1">Hora</span>!</p>
-                    <p>Comision de <b>$27</b> por Mercado Pago</p>
-                    <a href="https://mpago.la/1guj2rr" target="_blank">Comprar</a>   
+                    <h3>01:00      $900</h3>
+                    <p class="card-p1">Preguntas las veces que quieras por Una <span class="card-price-1">Hora</span>!</p>
+                    <p class="card-p2">Comision de <b>$27</b> por Mercado Pago</p>
+                    <a class="card-a" href="https://mpago.la/1guj2rr" target="_blank">Comprar</a>   
                 </div>
                 <div class="box-3">
                     <h2>Lectura Basica</h2>
-                    <h3>00:30    $650 ARS</h3>
-                    <p>Pregunta hasta 15 vecesdurante<span class="card-price-1"> Media</span><span card-price-2> Hora</span>!</p>
-                    <p>Comision de <b>$19,50</b> por Mercado Pago</p>
-                    <a href="https://mpago.la/2LZMosj" target="_blank">Comprar</a>   
+                    <h3>00:30      $650</h3>
+                    <p class="card-p1">Pregunta hasta 15 veces durante<span class="card-price-1"> Media</span><span card-price-2> Hora</span>!</p>
+                    <p class="card-p2">Comision de <b>$19,50</b> por Mercado Pago</p>
+                    <a class="card-a" href="https://mpago.la/2LZMosj" target="_blank">Comprar</a>   
                 </div>
             </div>
         </article>
-    </section>
+ </section>
+
     <script>
         function msg() {
             alert("¡Quiero un turno!")}
+
     </script>
+    
 
 </body>
 </html>
